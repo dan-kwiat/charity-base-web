@@ -9,6 +9,8 @@ Create a `.env` file with the following variables
 ```
 SKIP_PREFLIGHT_CHECK=true
 REACT_APP_URL="YOUR_WEBSITE_URL"
+REACT_APP_CB_API_URL="https://charitybase.uk/api/graphql"
+REACT_APP_CB_AUTH_URL="https://charitybase.uk/api/auth/graphql"
 REACT_APP_CHARITY_BASE_API_KEY="YOUR_API_KEY"
 REACT_APP_AUTH0_CLIENT_ID="YOUR_CLIENT_ID"
 REACT_APP_MAPBOX_TOKEN="YOUR_TOKEN"

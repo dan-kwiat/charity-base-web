@@ -1,5 +1,5 @@
-const charityBaseGqlApiUri = "https://charitybase.uk/api/graphql"
-const charityBaseGqlAuthUri = "https://charitybase.uk/auth/graphql"
+const charityBaseGqlApiUri = process.env.REACT_APP_CB_API_URL
+const charityBaseGqlAuthUri = process.env.REACT_APP_CB_AUTH_URL
 const charityBaseApiKey = process.env.REACT_APP_CHARITY_BASE_API_KEY
 
 const auth0Config = {
